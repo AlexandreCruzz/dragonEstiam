@@ -1,3 +1,6 @@
-import { message } from './core/utils';
+import { addDragons } from './core/utils';
+import dragons from "./core/dragons"
 
-document.getElementById('message').innerHTML = message
+const main = document.getElementById('main')
+
+document.body.onload = addDragons(main, dragons);

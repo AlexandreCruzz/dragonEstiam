@@ -1,7 +1,6 @@
-import { dragon } from "./dragon";
-
-function addDragon(main, dragon){
-    
+export function addDragons(main, dragons){
+    debugger;
+    dragons.names.forEach(element => {
+        main.textContent = element.id, element.name
+    });
 }
-
-export const message = "Hello webpack"
